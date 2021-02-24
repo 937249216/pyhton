@@ -56,8 +56,33 @@ def store (data,fullname):
             data[label][name] = [fullname]
 
      '''           
-
+'''
 def code(x,*y,z):
     print(x,y,z)
 
 code(1,2,3,4,5,6,7)
+'''
+
+def story(**kwds):
+    return 'once up a time, there was a '\
+        '{job}called {name}.'.format_map(kwds)
+
+def power(x,y,*others):
+    if others:
+        print('Received redundant parameters:',others)
+    return pow (x,y)        
+
+def interval(start,stop=None, step=1):
+    'imitates range() for step > 0'
+    if stop is  None :
+        start,stop = 0,start
+    result = []
+
+    i = start 
+    while i < stop:
+        result.append(i)
+        i+=step 
+    return result   
+'''
+print(story(job='king',name='gumby')) '''
+          
