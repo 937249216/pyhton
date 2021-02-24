@@ -42,7 +42,7 @@ girls = ['alice','bernice','clarice']
 boys = ['cris','arnold','bob']
 [b+'+'+g for b in boys for g in girls if b[0] == g[0]]
 '''
-
+'''
 def store (data,fullname):
     name  full_name.split()
     if len(names) == 2：names.insert(1,'')
@@ -53,5 +53,7 @@ def store (data,fullname):
         if people:
             people.append(full_name)
         else:
-            data[label][name] = [fullname]    
+            data[label][name] = [fullname]
+
+     '''           
 
