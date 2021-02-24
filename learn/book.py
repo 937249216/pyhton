@@ -57,3 +57,7 @@ def store (data,fullname):
 
      '''           
 
+def code(x,*y,z):
+    print(x,y,z)
+
+code(1,2,3,4,5,6,7)
