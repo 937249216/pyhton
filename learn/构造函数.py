@@ -19,4 +19,4 @@ class ArithmeticSequence:
     def __setitem_(self,key,value):
         check_index(key)
         self.changed[key]=value            
-ssss
+
