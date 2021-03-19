@@ -21,7 +21,11 @@ castle
 
 
 migration 迁移
-appeal 呼吁
+appeal 上诉
 obstacl 障碍物
 fond 喜爱
 bracket 支架 括号
+supervise 监督
+scold 责备
+slogan 口号
+incentive
