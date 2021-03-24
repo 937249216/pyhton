@@ -65,7 +65,7 @@ code(1,2,3,4,5,6,7)
 
 def story(**kwds):
     return 'once up a time, there was a '\
-        '{job}called {name}.'.format_map(kwds)
+        '{job} called {name}.'.format_map(kwds)
 
 def power(x,y,*others):
     if others:
@@ -85,4 +85,5 @@ def interval(start,stop=None, step=1):
     return result   
 '''
 print(story(job='king',name='gumby')) '''
+print(interval)
           
