@@ -1,4 +1,4 @@
-'''class solution:
+class solution:
     def slove(self,n:int):
         def generateboard():
             board = list()
@@ -44,4 +44,4 @@ class Solution:
 
         recursion(n,[],[[],[]])
         return self.res
-       
+     '''
