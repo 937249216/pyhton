@@ -1,5 +1,5 @@
 class Solution:
-    def solveNQueens(self, n: int) -> list [list[str]]:
+    def solveNQueens(self, n: int) -> list[list[str]]:
         def generateBoard():
             board = list()
             for i in range(n):
@@ -24,7 +24,7 @@ class Solution:
                     columns.remove(i)
                     diagonal1.remove(row - i)
                     diagonal2.remove(row + i)
-                    
+
         solutions = list()
         queens = [-1] * n
         columns = set()
