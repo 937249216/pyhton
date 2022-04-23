@@ -1,0 +1,9 @@
+﻿  源.cpp
+D:\项目\C\test\test\源.cpp(5,19): error C2087: “sum”: 缺少下标
+D:\项目\C\test\test\源.cpp(5,19): error C2133: “sum”: 未知的大小
+D:\项目\C\test\test\源.cpp(16,31): error C2106: “+=”: 左操作数必须为左值
+D:\项目\C\test\test\源.cpp(22,16): warning C4477: “printf”: 格式字符串“%.1lf”需要类型“double”的参数，但可变参数 1 拥有了类型“double (*)[]”
+D:\项目\C\test\test\源.cpp(24,35): error C2296: “/”: 非法，左操作数包含“double [][]”类型
+D:\项目\C\test\test\源.cpp(24,16): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+D:\项目\C\test\test\源.cpp(24,16): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+D:\项目\C\test\test\源.cpp(24,16): message : 缺失的可变参数 1 为格式字符串“%.1lf”所需
